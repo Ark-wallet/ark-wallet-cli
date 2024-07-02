@@ -1,7 +1,7 @@
-use clap::Parser;
+use clap::Parser;                              
 use anyhow::Result;
 use log::{info, warn, error};
-
+use ark::RPC;
 #[derive(Parser)]
 #[clap(name = "my_cli", about = "An example CLI application")]
 struct Cli {
