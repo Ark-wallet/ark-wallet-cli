@@ -1,1 +1,1 @@
-# ark-wallet-cli
+# ARK Wallet CLI
