@@ -4,12 +4,16 @@
 
 ### Features
 
-TBD
-
+- Self-custody
+- Built on Liquid
+- Open source
+  
 ### How works?
 
 TBD
 
 ### Roadmap
 
-TBD
+-  [ ] Ark consensus
+-  [ ] Testnet
+-  [ ] Open source
