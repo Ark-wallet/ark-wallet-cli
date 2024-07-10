@@ -10,7 +10,9 @@
   
 ### How works?
 
-TBD
+- Create your own keys
+- Then generate address
+- Accept payment
 
 ### Roadmap
 
