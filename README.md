@@ -19,3 +19,4 @@
 -  [ ] Ark consensus
 -  [ ] Testnet
 -  [ ] Open source
+-  [ ] GUI
