@@ -16,7 +16,7 @@
 
 ### Roadmap
 
--  [ ] Ark consensus
--  [ ] Testnet
+-  [x] Ark consensus (WIP)
+-  [ ] Testnet/Signet
 -  [ ] Open source
 -  [ ] GUI
