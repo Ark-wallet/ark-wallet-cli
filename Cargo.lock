@@ -72,6 +72,7 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "ark-lib",
+ "bark-client",
  "clap",
  "env_logger",
  "log",
@@ -93,6 +94,12 @@ dependencies = [
  "libc",
  "winapi",
 ]
+
+[[package]]
+name = "bark-client"
+version = "0.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8d0cc0fdab0de7a72b88e458c76ab329768dcb3083adeee9dbbf3c9684f2f3e8"
 
 [[package]]
 name = "clap"

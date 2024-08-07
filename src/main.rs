@@ -1,8 +1,9 @@
 use clap::Parser;                              
 use anyhow::Result;
 use log::{info, warn, error};
-use ark::RPC;
-use ark::VUTXO
+use bark::{Bark, BarkConfig};
+use brk::Chain;
+
     
     
 #[derive(Parser)]
