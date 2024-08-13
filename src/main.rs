@@ -1,9 +1,9 @@
 use clap::Parser;                              
 use anyhow::Result;
-use log::{info, warn, error};
-use bark_client::{Bark, BarkConfig};
-use bark_client::Chain;
-
+use log::info;
+use bark_client::Bark;
+use bark_client::config::BarkConfig;
+use anyhow::Chain;
     
     
 #[derive(Parser)]
