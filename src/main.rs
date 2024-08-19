@@ -1,7 +1,7 @@
 use clap::Parser;                              
 use anyhow::Result;
 use log::info;
-use bark_client::BarkConfig;
+use bark::BarkConfig;
 use anyhow::Chain;
     
     
