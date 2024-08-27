@@ -2,7 +2,7 @@ use clap::Parser;
 use anyhow::Result;
 use log::info;
 use bark::BarkConfig;
-use ark::Musig;
+use bark_client::Musig;
 use anyhow::Chain;
     
     
