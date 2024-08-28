@@ -1,8 +1,8 @@
 use clap::Parser;                              
 use anyhow::Result;
 use log::info;
-use bark::BarkConfig;
-use bark_client::Musig;
+use crate::bark::BarkConfig;
+// Removed unused import
 use anyhow::Chain;
     
     
