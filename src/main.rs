@@ -1,9 +1,6 @@
 use clap::Parser;                              
 use anyhow::Result;
 use log::info;
-use extern crate::bark::BarkConfig;
-// Removed unused import
-use anyhow::Chain;
     
     
 #[derive(Parser)]
