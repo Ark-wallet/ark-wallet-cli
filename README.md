@@ -19,4 +19,5 @@
 -  [x] Ark consensus (WIP)
 -  [ ] Testnet/Signet
 -  [ ] Open source
+-  [ ] CLI
 -  [ ] GUI
