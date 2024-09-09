@@ -1,15 +1,18 @@
 use clap::Parser;                              
 use anyhow::Result;
 use log::info;
-    
-use ark_libs::prelude::*;
-use ark_libs::util::Fee;
-    
+
+use ark_lib;    
+use ark_lib::address::Address;
+use ark_lib::multisig::Multisig;
+use ark_lib::transaction::Transaction;
+
 #[derive(Parser)]
-#[clap(name = "my_cli", about = "An example CLI application")]
+#[clap(name = "ark_cli_wallet", about = "Your Ark wallet CLI written in Rust")]
 struct Cli {
     #[clap(subcommand)]
     command: Commands,
+    
 }
 
 #[derive(Parser)]
