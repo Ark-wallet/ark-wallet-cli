@@ -2,6 +2,8 @@ use clap::Parser;
 use anyhow::Result;
 use log::info;
     
+use ark_libs::prelude::*;
+use ark_libs::util::Fee;
     
 #[derive(Parser)]
 #[clap(name = "my_cli", about = "An example CLI application")]
