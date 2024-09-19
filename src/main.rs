@@ -6,7 +6,7 @@ use ark_lib;
 use ark_lib::address::Address;
 use ark_lib::multisig::Multisig;
 use ark_lib::transaction::Transaction;
-
+use ark_lib::Wallet;
 #[derive(Parser)]
 #[clap(name = "ark_cli_wallet", about = "Your Ark wallet CLI written in Rust")]
 struct Cli {
