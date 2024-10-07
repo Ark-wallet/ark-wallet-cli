@@ -9,7 +9,7 @@ use ark_lib::Wallet;
 use bark_client::Client;
 use bark_client::multisig::Multisig;
 #[derive(Parser)]
-#[clap(name = "ark_cli_wallet", about = "Your Ark wallet CLI written in Rust")]
+#[clap(name = "Ark CLI Wallet", about = "Your Ark wallet CLI written in Rust")]
 struct Cli {
     #[clap(subcommand)]
     command: Commands,
