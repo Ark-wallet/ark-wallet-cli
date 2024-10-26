@@ -16,7 +16,7 @@
 
 ### Roadmap
 
--  [x] Ark consensus (WIP)
+-  [x] Ark protocol (WIP)
 -  [ ] Testnet/Signet
 -  [ ] Open source
 -  [ ] CLI
