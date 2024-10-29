@@ -7,8 +7,7 @@ use ark_lib::address::Address;
 use ark_lib::transaction::Transaction;
 use ark_lib::Wallet;
 use bark_client::Client;
-use bark_client::multisig::Multisig;
-#[derive(Parser)]
+use bark_client::Multisig;#[derive(Parser)]
 #[clap(name = "Ark CLI Wallet", about = "Your Ark wallet CLI written in Rust")]
 struct Cli {
     #[clap(subcommand)]
