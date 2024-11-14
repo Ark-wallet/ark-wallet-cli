@@ -2,8 +2,8 @@ use clap::Parser;
 use anyhow::Result;
 use log::info;
 
-use ark_lib::address::Address;
-use ark_lib::Transaction;
+use ark_lib::Address;
+use ark_lib::transaction::Transaction;
 use ark_lib::wallet::Wallet;
 use ark_lib::client::Client;
 #[derive(Parser)]
@@ -35,7 +35,7 @@ fn main() -> Result<()> {
             // Implement Command2 logic here
         }
     }
+    let client = Client::new("http://localhost:4003");
 
     Ok(())
 }
-
