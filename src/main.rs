@@ -2,7 +2,7 @@ use clap::Parser;
 use anyhow::Result;
 use log::info;
 
-use ark_lib::Address;
+use ark_lib::wallet::Address;
 use ark_lib::transaction::Transaction;
 use ark_lib::wallet::Wallet;
 use ark_lib::client::Client;
