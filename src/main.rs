@@ -7,7 +7,7 @@ use ark_lib::transaction::Transaction;
 use ark_lib::wallet::Wallet;
 use ark_lib::client::Client;
 #[derive(Parser)]
-#[clap(name = "Ark CLI Wallet", about = "Your Ark wallet CLI written in Rust")]
+#[clap(name = "Ark CLI Wallet", about = "Ark wallet CLI written in Rust")]
 struct Cli {
     #[clap(subcommand)]
     command: Commands,
