@@ -5,7 +5,7 @@
 ### Features
 
 - Self-custody
-- Built on Liquid
+- Built on Bitcoin (non-soft fork)
 - Open source
   
 ### How works?
