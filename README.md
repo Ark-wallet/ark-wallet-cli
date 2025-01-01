@@ -19,3 +19,4 @@
 -  [x] Ark protocol (WIP)
 -  [ ] Open source
 -  [ ] CLI
+-  [ ] Taproot
