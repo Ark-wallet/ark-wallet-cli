@@ -20,3 +20,11 @@ Ark wallet with CLI
 -  [ ] Open source
 -  [ ] CLI
 -  [ ] Taproot
+
+## How to run
+
+```cargo
+git clone https://github.com/ark-wallet/ark-wallet-cli.git
+cd ark-wallet-cli
+cargo run
+```
