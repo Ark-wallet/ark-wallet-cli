@@ -27,4 +27,3 @@ Ark wallet with CLI
 git clone https://github.com/ark-wallet/ark-wallet-cli.git
 cd ark-wallet-cli
 cargo run
-```
