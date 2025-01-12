@@ -1,6 +1,6 @@
 # Ark Wallet CLI ⚡
 
->Ark wallet with CLI
+Ark wallet with CLI
 
 ### Features
 
