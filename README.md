@@ -23,7 +23,11 @@ Ark wallet with CLI
 
 ## How to run
 
-```cargo
+```git
 git clone https://github.com/ark-wallet/ark-wallet-cli.git
+```  
+
+Now run to build and run:
+```cargo
 cd ark-wallet-cli
 cargo run
