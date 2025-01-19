@@ -1,5 +1,7 @@
 # Ark Wallet CLI ⚡
 
+⚠️**The Wallet is still WIP**
+
 Ark wallet with CLI
 
 ### Features
