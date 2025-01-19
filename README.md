@@ -19,8 +19,8 @@ Ark wallet with CLI
 ### Roadmap
 
 -  [x] Ark protocol (WIP)
--  [ ] Open source
--  [ ] CLI
+-  [x] Open source
+-  [x] CLI
 -  [ ] Taproot
 
 ## How to run
