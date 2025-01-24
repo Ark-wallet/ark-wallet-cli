@@ -1,7 +1,6 @@
 use clap::{Parser, Subcommand};
 use log::info;
 use anyhow::Result;
-
 /// Mock Ark library module
 mod ark_lib {
     pub fn create_wallet(passphrase: &str) -> Result<(), String> {
@@ -20,11 +19,14 @@ mod ark_lib {
         sender: &str,
         recipient: &str,
         amount: f64,
+        passphrase: &str,
+        network: String,
     ) -> Result<(), String> {
+        let _ = passphrase;
         // Example: Creates a transaction
         println!(
-            "Transaction created: {} -> {} ({} ARK)",
-            sender, recipient, amount
+            "Transaction created: {} -> {} ({} ARK) on network {}",
+            sender, recipient, amount, network
         );
         Ok(())
     }
@@ -63,6 +65,9 @@ enum Commands {
         recipient: String,
         /// Amount to transfer
         amount: f64,
+        /// Passphrase to secure the transaction
+        /// Network to use for the transaction
+        network: String,
     },
 }
 
@@ -89,12 +94,13 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             sender,
             recipient,
             amount,
+            network,
         } => {
             info!(
                 "Creating a transaction from {} to {} of amount {} ARK...",
                 sender, recipient, amount
             );
-            ark_lib::create_transaction(&sender, &recipient, amount)?;
+            ark_lib::create_transaction(&sender, &recipient, amount, &network, String::new())?;
             println!("Transaction successfully created.");
         }
     }

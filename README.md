@@ -21,6 +21,7 @@ Ark wallet with CLI
 -  [x] Ark protocol (WIP)
 -  [x] Open source
 -  [x] CLI
+-  [x] Testnet
 -  [ ] Taproot
 
 ## How to run
