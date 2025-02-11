@@ -1,6 +1,7 @@
 use clap::{Parser, Subcommand};
 use log::info;
 use anyhow::Result;
+use ark_lib::create_transaction;
 /// Mock Ark library module
 mod ark_lib {
     pub fn create_wallet(passphrase: &str) -> Result<(), String> {
